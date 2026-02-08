@@ -1,7 +1,7 @@
 {
   "name": "Calculatrice Djéhoutyenne - Tables",
   "short_name": "Djéhouty Tables",
-  "description": "Tables de multiplication cycliques avec gestion des tours.",
+  "description": "Calculatrice Djéhoutyenne : Apprentissage visuel et cyclique des tables de multiplication.",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
