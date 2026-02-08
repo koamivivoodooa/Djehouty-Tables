@@ -715,6 +715,29 @@ function gcd(a,b){ a=Math.abs(a); b=Math.abs(b); while(b){ const t=a%b; a=b; b=t
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js');
   }
+  let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (e) => {
+  // Empêche Chrome d'afficher la bannière par défaut trop vite
+  e.preventDefault();
+  deferredPrompt = e;
+  
+  // Ici, tu peux faire apparaître un bouton "Installer l'App" dans ton UI
+  console.log("L'application est prête à être installée.");
+});
+
+// Fonction à appeler quand l'utilisateur clique sur ton bouton d'installation
+function installApp() {
+  if (deferredPrompt) {
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then((choiceResult) => {
+      if (choiceResult.outcome === 'accepted') {
+        console.log('L’utilisateur a installé l’app');
+      }
+      deferredPrompt = null;
+    });
+  }
+}
 </script>
 </body>
 </html>
