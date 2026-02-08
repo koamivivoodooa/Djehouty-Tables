@@ -1,6 +1,6 @@
 {
-  "name": "Calculatrice Djéhoutyenne - Tours",
-  "short_name": "Djéhouty Tours",
+  "name": "Calculatrice Djéhoutyenne - Tables",
+  "short_name": "Djéhouty Tables",
   "description": "Tables de multiplication cycliques avec gestion des tours.",
   "start_url": "./index.html",
   "display": "standalone",
