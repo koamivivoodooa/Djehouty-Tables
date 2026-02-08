@@ -18,4 +18,4 @@ Inspirée par les travaux de l'inventeur **Dodji Mahouignito Djéhouty OLOU**, c
 3. Pour l'installer sur mobile, utilisez l'option "Ajouter à l'écran d'accueil" depuis votre navigateur (Chrome ou Safari).
 
 ---
-*© 2026 — Ordinateur Djéhoutyen® (Marque protégée INPI). Créé par Koamivi Voodooa.*
+*© 2026 — Ordinateur Djéhoutyen® (Marque protégée INPI).
